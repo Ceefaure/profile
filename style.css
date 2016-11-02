@@ -98,6 +98,7 @@ td p {
   bottom: 0;
   background-color: #FFFAEF;
   text-align: center;
+  font-size: 13px;
   opacity: 0.6;
 }
 
@@ -115,3 +116,11 @@ td p {
   margin-left: 300px;
 }
 
+#footer {
+  text-align: center;
+  font-size: 10px;
+}
+
+.white_card .footer-image {
+  width: 300px;
+}
