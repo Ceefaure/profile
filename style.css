@@ -17,6 +17,7 @@ h1, h2 {
 h1 {
   font-size: 25px;
   color: #015051;
+  font-weight: heavy;
 }
 
 h2 {
@@ -30,8 +31,8 @@ h3 {
   color: #01A7A3;
 }
 
-.presentation {
-  margin-top: 30px;
+.text {
+  margin-top: 50px;
 }
 
 a {
@@ -45,7 +46,7 @@ a:hover {
 }
 
 .white_card {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   padding: 30px;
   margin: 20px auto;
   width: 600px;
@@ -81,11 +82,36 @@ td p {
 
 .inline-list > li {
   display: inline-block;
-  padding: 0px 40px;
+  padding: 0px 50px;
 }
 
 .inline-list > li > a {
-  font-size: 30px;
+  font-size: 50px;
   padding-left: 0px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #FFFAEF;
+  text-align: center;
+  opacity: 0.6;
+}
+
+#sidebar > ul {
+  padding: 0px;
+  margin-top: 150px;
+}
+
+#sidebar > ul > li {
+  list-style: none;
+  margin: 40px 0px;
+}
+
+#page-content {
+  margin-left: 300px;
 }
 
