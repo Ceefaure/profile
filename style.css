@@ -1,0 +1,91 @@
+body {
+  /*background-color: #AECCC6;*/
+  background-image: url(pictures/skulls.png);
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(3, 3, 3);
+  font-size: 14px;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2 {
+  line-height: 15px;
+}
+
+h1 {
+  font-size: 25px;
+  color: #015051;
+}
+
+h2 {
+  font-size: 20px;
+  color: #04837B;
+}
+
+h3 {
+  line-height: 5px;
+  font-size: 15px;
+  color: #01A7A3;
+}
+
+.presentation {
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #015051;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #04F2D5;
+}
+
+.white_card {
+  background-color: white;
+  padding: 30px;
+  margin: 20px auto;
+  width: 600px;
+  text-align: center;
+  box-shadow: 2px 2px rgb(230, 230, 230);
+  border-radius: 5px;
+}
+
+.series_picture {
+  width: 200px;
+  margin: 5px;
+}
+
+.image_circle {
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px
+}
+
+.white_card tr {
+  padding-bottom: 20px;
+}
+
+td h3 {
+  text-align: center;
+}
+
+td p {
+  text-align: justify;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.inline-list > li {
+  display: inline-block;
+  padding: 0px 40px;
+}
+
+.inline-list > li > a {
+  font-size: 30px;
+  padding-left: 0px;
+}
+
