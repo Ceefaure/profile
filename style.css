@@ -121,6 +121,6 @@ td p {
   font-size: 10px;
 }
 
-.footer-image {
+#footer > .footer-image {
   width: 270px;
 }
